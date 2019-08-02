@@ -212,13 +212,155 @@ This is for the time line */
     text-align: center;
 }
 
-/* This is for the about page */
-/* Section One - Intro */
 
-.mini-collage {
+/* This is for the about page */
+
+#main-about {
+    scroll-snap-type: mandatory;
+}
+
+#main-about img {
+    position: relative;
+    border: white solid 15px;
+}
+
+.section-about {
+    margin: 0 0 200px 0;
+}
+
+.text-box-right {
+    position: relative;
+    width: 45%;
+    left: 600px;
+    top: -250px;
+    color: #021F59;
+}
+
+.text-box-right p {
+    font-size: 24px;
+}
+
+.text-box-left {
+    position: relative;
+    width: 45%;
+    color: #021F59;
+    top: 250px;
 
 }
 
+.text-box-left p {
+    font-size: 24px;
+}
+
+/* Section One - Intro */
+
+#about-intro {
+    scroll-snap-align: start;
+}
+
+.mini-collage {
+    position: relative;
+}
+
 #statue {
-    height: 100px;
+    height: 300px;
+    left: 670px;
+    position: relative;
+
+}
+
+#selfie {
+    height: 300px;
+    top: 100px;
+    left: 500px;
+}
+
+.quote-box {
+    position: relative;
+    background: #E9EFF2;
+    border: #021F59 solid 5px;
+    color: #021F59;
+    padding: 25px;
+    width: 45%;
+    top: -250px;
+}
+
+.quote-box p {
+    text-align: right;
+}
+
+/* Section Two - About Cambridge */
+
+#about-cambridge {
+    scroll-snap-align: start;
+}
+
+#kings {
+    height: 300px;
+}
+
+#cambridge {
+    height: 300px;
+    position: relative;
+    left: -495px;
+    top: 130px;
+    border: white solid 15px;
+}
+
+/* Section Three - About Eidsvoll */
+
+#about-eidsvoll {
+    scroll-snap-align: start;
+}
+
+#snowlane {
+    height: 250px;
+    left: 775px;
+    top: 25px;
+}
+
+#vorma {
+    height: 250px;
+    left: 180px;
+}
+
+#eidsvoll {
+    height: 250px;
+    left: 485px;
+    top: -45px;
+}
+
+/* Section Four - About Norway */
+
+#about-norway {
+    scroll-snap-align: start;
+}
+
+#mai-17 {
+    height: 250px;
+}
+
+#stranda {
+    height: 350px;
+    top: 200px;
+    left: -75px;
+}
+
+#bunad {
+    height: 200px;
+    top: 145px;
+    left: -450px;
+}
+/* Section Five - About Food */
+
+#tart {
+    height: 200px;
+    left: 600px;
+    top: 50px
+}
+
+#cake {
+    height: 200px;
+    left: 500px;
+    top: -75px;
 }
