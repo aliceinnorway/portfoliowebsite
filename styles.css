@@ -31,6 +31,10 @@ h2 {
 
 }
 
+header a {
+    text-decoration: none;
+}
+
 /* This is the main home page */
 
 main {
