@@ -15,11 +15,11 @@ header {
     /* there is a bug that when the window is small, it hides the h2*/
 }
 
-h1 {
+header h1 {
     font-size: 48px;
 }
 
-h2 {
+header h2 {
     font-size: 16px;
 }
 
@@ -58,7 +58,6 @@ main {
     padding: 0 25px;
     flex-direction: column;
     width: 30%;
-    border: solid 1px green;
     order: 1;
     flex-grow: 2;
 }
