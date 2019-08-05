@@ -5,14 +5,12 @@ body {
 /* This is the header */
 
 header {
-/* The header needs to be 250 px high, a white background and sticky to the top.*/
     letter-spacing: 10px;
     text-align: center;
     color: #011640;
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
-    /* there is a bug that when the window is small, it hides the h2*/
 }
 
 header h1 {
@@ -93,8 +91,11 @@ main {
     padding: 10px;
 }
 
-p {
-    font-size: 14px;
+#main-home h3 {
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 8px;
+    text-decoration: underline;
 }
 
 /* This is for the time line 
@@ -217,18 +218,24 @@ This is for the time line */
 
 
 /* This is for the about page */
-
-#main-about {
+.main-about {
+    overflow: scroll;
+    height: 100vh;
     scroll-snap-type: mandatory;
-}
-
-#main-about img {
-    position: relative;
-    border: white solid 15px;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+    background-color: white;
 }
 
 .section-about {
-    margin: 0 0 200px 0;
+    height: 100vh;
+    scroll-snap-align: start;
+    background-color: white;
+}
+
+.main-about img {
+    position: relative;
+    border: white solid 15px;
 }
 
 .text-box-right {
@@ -257,10 +264,6 @@ This is for the time line */
 
 /* Section One - Intro */
 
-#about-intro {
-    scroll-snap-align: start;
-}
-
 .mini-collage {
     position: relative;
 }
@@ -269,7 +272,6 @@ This is for the time line */
     height: 300px;
     left: 670px;
     position: relative;
-
 }
 
 #selfie {
@@ -294,10 +296,6 @@ This is for the time line */
 
 /* Section Two - About Cambridge */
 
-#about-cambridge {
-    scroll-snap-align: start;
-}
-
 #kings {
     height: 300px;
 }
@@ -311,10 +309,6 @@ This is for the time line */
 }
 
 /* Section Three - About Eidsvoll */
-
-#about-eidsvoll {
-    scroll-snap-align: start;
-}
 
 #snowlane {
     height: 250px;
@@ -334,10 +328,6 @@ This is for the time line */
 }
 
 /* Section Four - About Norway */
-
-#about-norway {
-    scroll-snap-align: start;
-}
 
 #mai-17 {
     height: 250px;
