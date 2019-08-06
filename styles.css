@@ -62,7 +62,6 @@ main {
 
 .image-wrapper {
     order: 2;
-    border: solid 1px green;
 
 }
 
@@ -76,7 +75,7 @@ main {
     box-shadow: 0 5px 12px grey;
     margin-bottom: 20px;
     padding: 0 15px;
-    height: 135px;
+    height: 120px;
 }
 
 .topic a, a:visited {
