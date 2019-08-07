@@ -65,7 +65,8 @@ main {
 }
 
 .image-wrapper img {
-    width: 300px
+    width: 300px;
+    display: visible;
 }
 
 .topic {
@@ -88,12 +89,6 @@ main {
     text-align: center;
     letter-spacing: 8px;
     text-decoration: underline;
-}
-
-@media only screen and (max-width : 420px) {
-    .image-wrapper, .home-image {
-        display: none;
-    }
 }
 
 /* This is for the time line
@@ -354,4 +349,13 @@ This is for the time line */
     height: 200px;
     left: 500px;
     top: -75px;
+}
+
+/* Media Queries to go here */
+
+/* Hiding the image on the home page */
+@media only screen and (max-width : 420px) {
+    .image-wrapper img {
+        display: none;
+    }
 }
