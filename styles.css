@@ -82,12 +82,6 @@ main {
     color: #011640;
 }
 
-.topic-wrapper-img {
-    display: flex;
-    width: 500px;
-    max-width: 50;
-    padding: 10px;
-}
 
 #main-home h3 {
     font-size: 38px;
@@ -96,8 +90,8 @@ main {
     text-decoration: underline;
 }
 
-@media only screen and (max-height : 420px) {
-    .topic-wrapper-img {
+@media only screen and (max-width : 420px) {
+    .image-wrapper, .home-image {
         display: none;
     }
 }
