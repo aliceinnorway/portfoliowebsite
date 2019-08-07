@@ -96,6 +96,12 @@ main {
     text-decoration: underline;
 }
 
+@media only screen and (max-height : 420px) {
+    .topic-wrapper-img {
+        display: none;
+    }
+}
+
 /* This is for the time line
 -
 -
